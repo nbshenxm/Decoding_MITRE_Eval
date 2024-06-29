@@ -1,0 +1,1933 @@
+{
+    "apt3": {
+        "Execution": {
+            "User Execution": {
+                "Visibility": 12,
+                "Detection": 7,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.9166666666666666
+            },
+            "Signed Binary Proxy Execution": {
+                "Visibility": 12,
+                "Detection": 9,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 54,
+                "Detection": 33,
+                "Substeps": 60,
+                "Confidence": 0.0,
+                "Quality": 0.9074074074074074
+            },
+            "Process Injection": {
+                "Visibility": 37,
+                "Detection": 27,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.8918918918918919
+            },
+            "Graphical User Interface": {
+                "Visibility": 10,
+                "Detection": 1,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Scheduled Task/Job": {
+                "Visibility": 24,
+                "Detection": 10,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            },
+            "System Services": {
+                "Visibility": 12,
+                "Detection": 8,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            }
+        },
+        "Persistence": {
+            "Boot or Logon Autostart Execution": {
+                "Visibility": 24,
+                "Detection": 7,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.875
+            },
+            "Create Account": {
+                "Visibility": 10,
+                "Detection": 4,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.6
+            },
+            "Valid Accounts": {
+                "Visibility": 36,
+                "Detection": 11,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.8888888888888888
+            },
+            "Event Triggered Execution": {
+                "Visibility": 24,
+                "Detection": 15,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.9166666666666666
+            }
+        },
+        "Command and Control": {
+            "Commonly Used Port": {
+                "Visibility": 39,
+                "Detection": 15,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.8974358974358975
+            },
+            "Application Layer Protocol": {
+                "Visibility": 28,
+                "Detection": 8,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.8214285714285714
+            },
+            "Data Encoding": {
+                "Visibility": 5,
+                "Detection": 0,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Multiband Communication": {
+                "Visibility": 10,
+                "Detection": 1,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.9
+            },
+            "Ingress Tool Transfer": {
+                "Visibility": 44,
+                "Detection": 14,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.9090909090909091
+            },
+            "Encrypted Channel": {
+                "Visibility": 6,
+                "Detection": 2,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            }
+        },
+        "Discovery": {
+            "System Network Configuration Discovery": {
+                "Visibility": 64,
+                "Detection": 40,
+                "Substeps": 72,
+                "Confidence": 0.0,
+                "Quality": 0.75
+            },
+            "System Owner/User Discovery": {
+                "Visibility": 38,
+                "Detection": 23,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.7894736842105263
+            },
+            "Process Discovery": {
+                "Visibility": 27,
+                "Detection": 18,
+                "Substeps": 60,
+                "Confidence": 0.0,
+                "Quality": 0.7777777777777778
+            },
+            "System Service Discovery": {
+                "Visibility": 75,
+                "Detection": 43,
+                "Substeps": 84,
+                "Confidence": 0.0,
+                "Quality": 0.7733333333333333
+            },
+            "System Information Discovery": {
+                "Visibility": 31,
+                "Detection": 18,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.7741935483870968
+            },
+            "Permission Groups Discovery": {
+                "Visibility": 61,
+                "Detection": 51,
+                "Substeps": 72,
+                "Confidence": 0.0,
+                "Quality": 0.6229508196721312
+            },
+            "Account Discovery": {
+                "Visibility": 58,
+                "Detection": 40,
+                "Substeps": 60,
+                "Confidence": 0.0,
+                "Quality": 0.7241379310344828
+            },
+            "Query Registry": {
+                "Visibility": 51,
+                "Detection": 27,
+                "Substeps": 60,
+                "Confidence": 0.0,
+                "Quality": 0.803921568627451
+            },
+            "Remote System Discovery": {
+                "Visibility": 36,
+                "Detection": 28,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.6388888888888888
+            },
+            "System Network Connections Discovery": {
+                "Visibility": 46,
+                "Detection": 29,
+                "Substeps": 48,
+                "Confidence": 0.0,
+                "Quality": 0.7173913043478262
+            },
+            "File and Directory Discovery": {
+                "Visibility": 34,
+                "Detection": 17,
+                "Substeps": 84,
+                "Confidence": 0.0,
+                "Quality": 0.8823529411764706
+            },
+            "Application Window Discovery": {
+                "Visibility": 3,
+                "Detection": 1,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Screen Capture": {
+                "Visibility": 2,
+                "Detection": 2,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.5
+            },
+            "Password Policy Discovery": {
+                "Visibility": 1,
+                "Detection": 0,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Network Share Discovery": {
+                "Visibility": 5,
+                "Detection": 2,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Software Discovery": {
+                "Visibility": 5,
+                "Detection": 2,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            }
+        },
+        "Privilege Escalation": {
+            "Abuse Elevation Control Mechanism": {
+                "Visibility": 18,
+                "Detection": 6,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            },
+            "Valid Accounts": {
+                "Visibility": 36,
+                "Detection": 11,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.8888888888888888
+            },
+            "Create or Modify System Process": {
+                "Visibility": 12,
+                "Detection": 10,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.75
+            }
+        },
+        "Defense Evasion": {
+            "Access Token Manipulation": {
+                "Visibility": 16,
+                "Detection": 1,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.875
+            },
+            "Indicator Removal on Host": {
+                "Visibility": 28,
+                "Detection": 10,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.8571428571428572
+            },
+            "Masquerading": {
+                "Visibility": 32,
+                "Detection": 10,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.90625
+            },
+            "File and Directory Permissions Modification": {
+                "Visibility": 24,
+                "Detection": 14,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            }
+        },
+        "Credential Access": {
+            "OS Credential Dumping": {
+                "Visibility": 14,
+                "Detection": 11,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.9285714285714286
+            },
+            "Unsecured Credentials": {
+                "Visibility": 3,
+                "Detection": 1,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.6666666666666667
+            },
+            "Brute Force": {
+                "Visibility": 24,
+                "Detection": 19,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.6666666666666667
+            }
+        },
+        "Lateral Movement": {
+            "Remote Services": {
+                "Visibility": 67,
+                "Detection": 39,
+                "Substeps": 72,
+                "Confidence": 0.0,
+                "Quality": 0.8059701492537313
+            },
+            "Lateral Tool Transfer": {
+                "Visibility": 11,
+                "Detection": 4,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8181818181818181
+            }
+        },
+        "Collection": {
+            "Input Capture": {
+                "Visibility": 3,
+                "Detection": 2,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.6666666666666667
+            },
+            "Data from Network Shared Drive": {
+                "Visibility": 6,
+                "Detection": 1,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 1.0
+            },
+            "Clipboard Data": {
+                "Visibility": 5,
+                "Detection": 3,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 54,
+                "Detection": 33,
+                "Substeps": 60,
+                "Confidence": 0.0,
+                "Quality": 0.9074074074074074
+            },
+            "Data Staged": {
+                "Visibility": 10,
+                "Detection": 4,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.9
+            },
+            "Archive Collected Data": {
+                "Visibility": 24,
+                "Detection": 12,
+                "Substeps": 24,
+                "Confidence": 0.0,
+                "Quality": 0.7916666666666666
+            }
+        },
+        "Exfiltration": {
+            "Exfiltration Over Alternative Protocol": {
+                "Visibility": 12,
+                "Detection": 7,
+                "Substeps": 12,
+                "Confidence": 0.0,
+                "Quality": 0.8333333333333334
+            }
+        },
+        "Initial Access": {
+            "Valid Accounts": {
+                "Visibility": 36,
+                "Detection": 11,
+                "Substeps": 36,
+                "Confidence": 0.0,
+                "Quality": 0.8888888888888888
+            }
+        }
+    },
+    "apt29": {
+        "Execution": {
+            "User Execution": {
+                "Visibility": 42,
+                "Detection": 29,
+                "Substeps": 42,
+                "Confidence": 0.5238095238095238,
+                "Quality": 0.9523809523809523
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 124,
+                "Detection": 74,
+                "Substeps": 126,
+                "Confidence": 0.655241935483871,
+                "Quality": 0.9435483870967742
+            },
+            "Native API": {
+                "Visibility": 38,
+                "Detection": 10,
+                "Substeps": 84,
+                "Confidence": 0.3815789473684211,
+                "Quality": 0.4736842105263158
+            },
+            "System Services": {
+                "Visibility": 27,
+                "Detection": 15,
+                "Substeps": 42,
+                "Confidence": 0.6111111111111112,
+                "Quality": 1.0
+            },
+            "Windows Management Instrumentation": {
+                "Visibility": 20,
+                "Detection": 14,
+                "Substeps": 21,
+                "Confidence": 0.7375,
+                "Quality": 0.95
+            },
+            "Signed Binary Proxy Execution": {
+                "Visibility": 20,
+                "Detection": 14,
+                "Substeps": 21,
+                "Confidence": 0.725,
+                "Quality": 0.9
+            }
+        },
+        "Defense Evasion": {
+            "Masquerading": {
+                "Visibility": 40,
+                "Detection": 28,
+                "Substeps": 42,
+                "Confidence": 0.65,
+                "Quality": 0.775
+            },
+            "Obfuscated Files or Information": {
+                "Visibility": 60,
+                "Detection": 24,
+                "Substeps": 84,
+                "Confidence": 0.48333333333333334,
+                "Quality": 0.7333333333333334
+            },
+            "Modify Registry": {
+                "Visibility": 31,
+                "Detection": 2,
+                "Substeps": 42,
+                "Confidence": 0.28225806451612906,
+                "Quality": 0.8064516129032258
+            },
+            "Deobfuscate/Decode Files or Information": {
+                "Visibility": 56,
+                "Detection": 26,
+                "Substeps": 63,
+                "Confidence": 0.5,
+                "Quality": 0.8392857142857143
+            },
+            "Indicator Removal on Host": {
+                "Visibility": 151,
+                "Detection": 91,
+                "Substeps": 168,
+                "Confidence": 0.6688741721854304,
+                "Quality": 0.9271523178807947
+            },
+            "Valid Accounts": {
+                "Visibility": 32,
+                "Detection": 8,
+                "Substeps": 42,
+                "Confidence": 0.4375,
+                "Quality": 0.90625
+            },
+            "Access Token Manipulation": {
+                "Visibility": 9,
+                "Detection": 7,
+                "Substeps": 21,
+                "Confidence": 0.8333333333333334,
+                "Quality": 1.0
+            },
+            "Hide Artifacts": {
+                "Visibility": 21,
+                "Detection": 12,
+                "Substeps": 21,
+                "Confidence": 0.5833333333333334,
+                "Quality": 0.8571428571428572
+            },
+            "Virtualization/Sandbox Evasion": {
+                "Visibility": 14,
+                "Detection": 7,
+                "Substeps": 21,
+                "Confidence": 0.5714285714285714,
+                "Quality": 0.7142857142857143
+            }
+        },
+        "Command and Control": {
+            "Non-Application Layer Protocol": {
+                "Visibility": 20,
+                "Detection": 7,
+                "Substeps": 21,
+                "Confidence": 0.475,
+                "Quality": 0.95
+            },
+            "Encrypted Channel": {
+                "Visibility": 10,
+                "Detection": 3,
+                "Substeps": 63,
+                "Confidence": 0.425,
+                "Quality": 0.4
+            },
+            "Ingress Tool Transfer": {
+                "Visibility": 111,
+                "Detection": 39,
+                "Substeps": 126,
+                "Confidence": 0.39864864864864863,
+                "Quality": 0.8918918918918919
+            },
+            "Commonly Used Port": {
+                "Visibility": 39,
+                "Detection": 18,
+                "Substeps": 42,
+                "Confidence": 0.4935897435897436,
+                "Quality": 0.9487179487179487
+            },
+            "Application Layer Protocol": {
+                "Visibility": 10,
+                "Detection": 3,
+                "Substeps": 42,
+                "Confidence": 0.425,
+                "Quality": 0.5
+            },
+            "Exfiltration Over Command and Control Channel": {
+                "Visibility": 14,
+                "Detection": 0,
+                "Substeps": 42,
+                "Confidence": 0.25,
+                "Quality": 0.5714285714285714
+            },
+            "Web Service": {
+                "Visibility": 20,
+                "Detection": 13,
+                "Substeps": 21,
+                "Confidence": 0.45,
+                "Quality": 0.8
+            }
+        },
+        "Discovery": {
+            "File and Directory Discovery": {
+                "Visibility": 71,
+                "Detection": 18,
+                "Substeps": 105,
+                "Confidence": 0.3873239436619718,
+                "Quality": 0.647887323943662
+            },
+            "Process Discovery": {
+                "Visibility": 84,
+                "Detection": 34,
+                "Substeps": 126,
+                "Confidence": 0.5238095238095238,
+                "Quality": 0.6785714285714286
+            },
+            "System Owner/User Discovery": {
+                "Visibility": 65,
+                "Detection": 13,
+                "Substeps": 105,
+                "Confidence": 0.3384615384615385,
+                "Quality": 0.6307692307692307
+            },
+            "System Information Discovery": {
+                "Visibility": 50,
+                "Detection": 16,
+                "Substeps": 84,
+                "Confidence": 0.44,
+                "Quality": 0.6599999999999999
+            },
+            "System Network Configuration Discovery": {
+                "Visibility": 37,
+                "Detection": 10,
+                "Substeps": 63,
+                "Confidence": 0.3783783783783784,
+                "Quality": 0.5675675675675675
+            },
+            "Software Discovery": {
+                "Visibility": 40,
+                "Detection": 21,
+                "Substeps": 63,
+                "Confidence": 0.61875,
+                "Quality": 0.625
+            },
+            "Permission Groups Discovery": {
+                "Visibility": 20,
+                "Detection": 0,
+                "Substeps": 42,
+                "Confidence": 0.25,
+                "Quality": 0.6
+            },
+            "Remote System Discovery": {
+                "Visibility": 32,
+                "Detection": 7,
+                "Substeps": 42,
+                "Confidence": 0.3046875,
+                "Quality": 0.8125
+            },
+            "Peripheral Device Discovery": {
+                "Visibility": 14,
+                "Detection": 6,
+                "Substeps": 21,
+                "Confidence": 0.5178571428571429,
+                "Quality": 0.6428571428571428
+            },
+            "Query Registry": {
+                "Visibility": 30,
+                "Detection": 8,
+                "Substeps": 42,
+                "Confidence": 0.38333333333333336,
+                "Quality": 0.7666666666666666
+            }
+        },
+        "Collection": {
+            "Automated Collection": {
+                "Visibility": 34,
+                "Detection": 12,
+                "Substeps": 42,
+                "Confidence": 0.45588235294117646,
+                "Quality": 0.6764705882352942
+            },
+            "Data from Local System": {
+                "Visibility": 28,
+                "Detection": 7,
+                "Substeps": 84,
+                "Confidence": 0.41964285714285715,
+                "Quality": 0.5714285714285714
+            },
+            "Archive Collected Data": {
+                "Visibility": 120,
+                "Detection": 51,
+                "Substeps": 147,
+                "Confidence": 0.5416666666666666,
+                "Quality": 0.825
+            },
+            "Screen Capture": {
+                "Visibility": 16,
+                "Detection": 9,
+                "Substeps": 21,
+                "Confidence": 0.640625,
+                "Quality": 0.5
+            },
+            "Clipboard Data": {
+                "Visibility": 15,
+                "Detection": 9,
+                "Substeps": 21,
+                "Confidence": 0.6666666666666666,
+                "Quality": 0.7333333333333334
+            },
+            "Input Capture": {
+                "Visibility": 16,
+                "Detection": 11,
+                "Substeps": 21,
+                "Confidence": 0.703125,
+                "Quality": 0.625
+            },
+            "Data Staged": {
+                "Visibility": 32,
+                "Detection": 6,
+                "Substeps": 42,
+                "Confidence": 0.3203125,
+                "Quality": 0.96875
+            },
+            "Email Collection": {
+                "Visibility": 20,
+                "Detection": 6,
+                "Substeps": 21,
+                "Confidence": 0.45,
+                "Quality": 0.95
+            }
+        },
+        "Exfiltration": {
+            "Exfiltration Over Command and Control Channel": {
+                "Visibility": 14,
+                "Detection": 0,
+                "Substeps": 42,
+                "Confidence": 0.25,
+                "Quality": 0.5714285714285714
+            },
+            "Exfiltration Over Alternative Protocol": {
+                "Visibility": 18,
+                "Detection": 7,
+                "Substeps": 21,
+                "Confidence": 0.4027777777777778,
+                "Quality": 0.6666666666666667
+            },
+            "Exfiltration Over Web Service": {
+                "Visibility": 16,
+                "Detection": 5,
+                "Substeps": 21,
+                "Confidence": 0.328125,
+                "Quality": 0.6875
+            }
+        },
+        "Privilege Escalation": {
+            "Event Triggered Execution": {
+                "Visibility": 74,
+                "Detection": 36,
+                "Substeps": 84,
+                "Confidence": 0.5608108108108109,
+                "Quality": 0.7972972972972973
+            },
+            "Abuse Elevation Control Mechanism": {
+                "Visibility": 38,
+                "Detection": 27,
+                "Substeps": 42,
+                "Confidence": 0.6842105263157895,
+                "Quality": 1.0
+            }
+        },
+        "Persistence": {
+            "Create or Modify System Process": {
+                "Visibility": 18,
+                "Detection": 11,
+                "Substeps": 21,
+                "Confidence": 0.6527777777777778,
+                "Quality": 0.9444444444444444
+            },
+            "Boot or Logon Autostart Execution": {
+                "Visibility": 45,
+                "Detection": 35,
+                "Substeps": 63,
+                "Confidence": 0.8222222222222222,
+                "Quality": 0.8888888888888888
+            },
+            "Event Triggered Execution": {
+                "Visibility": 74,
+                "Detection": 36,
+                "Substeps": 84,
+                "Confidence": 0.5608108108108109,
+                "Quality": 0.7972972972972973
+            },
+            "Create Account": {
+                "Visibility": 20,
+                "Detection": 18,
+                "Substeps": 21,
+                "Confidence": 0.925,
+                "Quality": 0.9
+            }
+        },
+        "Credential Access": {
+            "Unsecured Credentials": {
+                "Visibility": 26,
+                "Detection": 12,
+                "Substeps": 42,
+                "Confidence": 0.5769230769230769,
+                "Quality": 0.6153846153846154
+            },
+            "OS Credential Dumping": {
+                "Visibility": 59,
+                "Detection": 58,
+                "Substeps": 63,
+                "Confidence": 0.9364406779661016,
+                "Quality": 0.9322033898305084
+            }
+        },
+        "Lateral Movement": {
+            "Remote Services": {
+                "Visibility": 78,
+                "Detection": 49,
+                "Substeps": 84,
+                "Confidence": 0.6762820512820513,
+                "Quality": 0.9230769230769231
+            },
+            "Lateral Tool Transfer": {
+                "Visibility": 19,
+                "Detection": 10,
+                "Substeps": 21,
+                "Confidence": 0.4868421052631579,
+                "Quality": 1.0
+            },
+            "Use Alternate Authentication Material": {
+                "Visibility": 15,
+                "Detection": 12,
+                "Substeps": 21,
+                "Confidence": 0.5833333333333334,
+                "Quality": 0.7333333333333334
+            }
+        },
+        "Initial Access": {
+            "Valid Accounts": {
+                "Visibility": 32,
+                "Detection": 8,
+                "Substeps": 42,
+                "Confidence": 0.4375,
+                "Quality": 0.90625
+            }
+        }
+    },
+    "carbanak-fin7": {
+        "Execution": {
+            "User Execution": {
+                "Visibility": 57,
+                "Detection": 35,
+                "Substeps": 58,
+                "Confidence": 0.6973684210526315,
+                "Quality": 0.8421052631578947
+            },
+            "Inter-Process Communication": {
+                "Visibility": 54,
+                "Detection": 36,
+                "Substeps": 58,
+                "Confidence": 0.6712962962962963,
+                "Quality": 0.5555555555555556
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 801,
+                "Detection": 665,
+                "Substeps": 812,
+                "Confidence": 0.848314606741573,
+                "Quality": 0.920099875156055
+            },
+            "Native API": {
+                "Visibility": 29,
+                "Detection": 23,
+                "Substeps": 29,
+                "Confidence": 0.7068965517241379,
+                "Quality": 0.8275862068965517
+            },
+            "System Services": {
+                "Visibility": 58,
+                "Detection": 44,
+                "Substeps": 58,
+                "Confidence": 0.728448275862069,
+                "Quality": 0.9137931034482758
+            },
+            "Signed Binary Proxy Execution": {
+                "Visibility": 29,
+                "Detection": 29,
+                "Substeps": 29,
+                "Confidence": 0.9568965517241379,
+                "Quality": 0.9310344827586207
+            },
+            "Scheduled Task/Job": {
+                "Visibility": 58,
+                "Detection": 34,
+                "Substeps": 58,
+                "Confidence": 0.6767241379310345,
+                "Quality": 0.8448275862068966
+            }
+        },
+        "Defense Evasion": {
+            "Obfuscated Files or Information": {
+                "Visibility": 99,
+                "Detection": 53,
+                "Substeps": 116,
+                "Confidence": 0.5681818181818182,
+                "Quality": 0.8787878787878788
+            },
+            "Deobfuscate/Decode Files or Information": {
+                "Visibility": 161,
+                "Detection": 102,
+                "Substeps": 203,
+                "Confidence": 0.5885093167701864,
+                "Quality": 0.8819875776397516
+            },
+            "Modify Registry": {
+                "Visibility": 106,
+                "Detection": 74,
+                "Substeps": 116,
+                "Confidence": 0.7264150943396226,
+                "Quality": 0.8584905660377359
+            },
+            "Valid Accounts": {
+                "Visibility": 170,
+                "Detection": 97,
+                "Substeps": 189,
+                "Confidence": 0.6602941176470588,
+                "Quality": 0.9352941176470588
+            },
+            "Process Injection": {
+                "Visibility": 119,
+                "Detection": 108,
+                "Substeps": 145,
+                "Confidence": 0.8886554621848739,
+                "Quality": 0.773109243697479
+            },
+            "Indicator Removal on Host": {
+                "Visibility": 29,
+                "Detection": 22,
+                "Substeps": 29,
+                "Confidence": 0.8189655172413793,
+                "Quality": 0.9655172413793104
+            },
+            "Impair Defenses": {
+                "Visibility": 27,
+                "Detection": 23,
+                "Substeps": 29,
+                "Confidence": 0.8611111111111112,
+                "Quality": 0.9259259259259259
+            },
+            "Masquerading": {
+                "Visibility": 54,
+                "Detection": 39,
+                "Substeps": 58,
+                "Confidence": 0.7268518518518519,
+                "Quality": 0.6111111111111112
+            },
+            "Virtualization/Sandbox Evasion": {
+                "Visibility": 20,
+                "Detection": 16,
+                "Substeps": 29,
+                "Confidence": 0.8125,
+                "Quality": 0.75
+            }
+        },
+        "Command and Control": {
+            "Application Layer Protocol": {
+                "Visibility": 86,
+                "Detection": 63,
+                "Substeps": 232,
+                "Confidence": 0.7267441860465116,
+                "Quality": 0.8488372093023255
+            },
+            "Encrypted Channel": {
+                "Visibility": 74,
+                "Detection": 46,
+                "Substeps": 174,
+                "Confidence": 0.7162162162162162,
+                "Quality": 0.7837837837837838
+            },
+            "Ingress Tool Transfer": {
+                "Visibility": 742,
+                "Detection": 405,
+                "Substeps": 783,
+                "Confidence": 0.5606469002695418,
+                "Quality": 0.8504043126684636
+            },
+            "Non-Application Layer Protocol": {
+                "Visibility": 19,
+                "Detection": 9,
+                "Substeps": 29,
+                "Confidence": 0.47368421052631576,
+                "Quality": 1.0
+            },
+            "Remote Access Software": {
+                "Visibility": 26,
+                "Detection": 13,
+                "Substeps": 29,
+                "Confidence": 0.5865384615384616,
+                "Quality": 0.6923076923076923
+            },
+            "Proxy": {
+                "Visibility": 16,
+                "Detection": 5,
+                "Substeps": 29,
+                "Confidence": 0.421875,
+                "Quality": 0.9375
+            }
+        },
+        "Discovery": {
+            "System Information Discovery": {
+                "Visibility": 70,
+                "Detection": 51,
+                "Substeps": 116,
+                "Confidence": 0.7714285714285715,
+                "Quality": 0.7285714285714286
+            },
+            "Process Discovery": {
+                "Visibility": 76,
+                "Detection": 65,
+                "Substeps": 138,
+                "Confidence": 0.8782894736842105,
+                "Quality": 0.7894736842105263
+            },
+            "Query Registry": {
+                "Visibility": 28,
+                "Detection": 15,
+                "Substeps": 29,
+                "Confidence": 0.5803571428571429,
+                "Quality": 0.8214285714285714
+            },
+            "File and Directory Discovery": {
+                "Visibility": 32,
+                "Detection": 21,
+                "Substeps": 80,
+                "Confidence": 0.7109375,
+                "Quality": 0.84375
+            },
+            "Remote System Discovery": {
+                "Visibility": 101,
+                "Detection": 68,
+                "Substeps": 109,
+                "Confidence": 0.7029702970297029,
+                "Quality": 0.7920792079207921
+            },
+            "Account Discovery": {
+                "Visibility": 25,
+                "Detection": 19,
+                "Substeps": 29,
+                "Confidence": 0.7,
+                "Quality": 0.8
+            },
+            "System Owner/User Discovery": {
+                "Visibility": 46,
+                "Detection": 32,
+                "Substeps": 58,
+                "Confidence": 0.7608695652173914,
+                "Quality": 0.8043478260869565
+            },
+            "System Network Configuration Discovery": {
+                "Visibility": 42,
+                "Detection": 32,
+                "Substeps": 87,
+                "Confidence": 0.7380952380952381,
+                "Quality": 0.8333333333333334
+            },
+            "Network Share Discovery": {
+                "Visibility": 29,
+                "Detection": 26,
+                "Substeps": 29,
+                "Confidence": 0.9051724137931034,
+                "Quality": 0.896551724137931
+            }
+        },
+        "Collection": {
+            "Screen Capture": {
+                "Visibility": 69,
+                "Detection": 57,
+                "Substeps": 116,
+                "Confidence": 0.855072463768116,
+                "Quality": 0.8695652173913043
+            },
+            "Data from Local System": {
+                "Visibility": 58,
+                "Detection": 34,
+                "Substeps": 73,
+                "Confidence": 0.6810344827586207,
+                "Quality": 0.5689655172413793
+            }
+        },
+        "Exfiltration": {
+            "Exfiltration Over Command and Control Channel": {
+                "Visibility": 45,
+                "Detection": 12,
+                "Substeps": 87,
+                "Confidence": 0.40555555555555556,
+                "Quality": 0.8
+            },
+            "Archive Collected Data": {
+                "Visibility": 29,
+                "Detection": 24,
+                "Substeps": 29,
+                "Confidence": 0.7931034482758621,
+                "Quality": 0.7586206896551724
+            }
+        },
+        "Credential Access": {
+            "Brute Force": {
+                "Visibility": 28,
+                "Detection": 14,
+                "Substeps": 29,
+                "Confidence": 0.48214285714285715,
+                "Quality": 0.7857142857142857
+            },
+            "OS Credential Dumping": {
+                "Visibility": 49,
+                "Detection": 48,
+                "Substeps": 58,
+                "Confidence": 0.9285714285714286,
+                "Quality": 0.8979591836734694
+            },
+            "Input Capture": {
+                "Visibility": 23,
+                "Detection": 19,
+                "Substeps": 58,
+                "Confidence": 0.8478260869565217,
+                "Quality": 0.8695652173913043
+            },
+            "Credentials from Password Stores": {
+                "Visibility": 24,
+                "Detection": 12,
+                "Substeps": 29,
+                "Confidence": 0.5729166666666666,
+                "Quality": 0.5416666666666667
+            }
+        },
+        "Persistence": {
+            "Valid Accounts": {
+                "Visibility": 170,
+                "Detection": 97,
+                "Substeps": 189,
+                "Confidence": 0.6602941176470588,
+                "Quality": 0.9352941176470588
+            },
+            "Boot or Logon Autostart Execution": {
+                "Visibility": 57,
+                "Detection": 55,
+                "Substeps": 58,
+                "Confidence": 0.9649122807017544,
+                "Quality": 0.8947368421052632
+            },
+            "Event Triggered Execution": {
+                "Visibility": 40,
+                "Detection": 36,
+                "Substeps": 58,
+                "Confidence": 0.91875,
+                "Quality": 0.9
+            }
+        },
+        "Privilege Escalation": {
+            "Abuse Elevation Control Mechanism": {
+                "Visibility": 52,
+                "Detection": 43,
+                "Substeps": 58,
+                "Confidence": 0.8269230769230769,
+                "Quality": 0.8846153846153846
+            },
+            "Hijack Execution Flow": {
+                "Visibility": 25,
+                "Detection": 17,
+                "Substeps": 29,
+                "Confidence": 0.72,
+                "Quality": 0.64
+            }
+        },
+        "Lateral Movement": {
+            "Remote Services": {
+                "Visibility": 180,
+                "Detection": 140,
+                "Substeps": 189,
+                "Confidence": 0.8083333333333333,
+                "Quality": 0.9055555555555556
+            },
+            "Lateral Tool Transfer": {
+                "Visibility": 88,
+                "Detection": 62,
+                "Substeps": 95,
+                "Confidence": 0.7102272727272727,
+                "Quality": 0.8863636363636364
+            },
+            "Use Alternate Authentication Material": {
+                "Visibility": 25,
+                "Detection": 15,
+                "Substeps": 29,
+                "Confidence": 0.67,
+                "Quality": 0.76
+            }
+        }
+    },
+    "wizard-spider-sandworm": {
+        "Execution": {
+            "User Execution": {
+                "Visibility": 30,
+                "Detection": 26,
+                "Substeps": 30,
+                "Confidence": 0.8833333333333333,
+                "Quality": 0.9666666666666667
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 167,
+                "Detection": 153,
+                "Substeps": 172,
+                "Confidence": 0.9161676646706587,
+                "Quality": 0.9580838323353293
+            },
+            "Windows Management Instrumentation": {
+                "Visibility": 25,
+                "Detection": 23,
+                "Substeps": 30,
+                "Confidence": 0.94,
+                "Quality": 0.92
+            },
+            "System Services": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.925,
+                "Quality": 0.9333333333333333
+            }
+        },
+        "Command and Control": {
+            "Ingress Tool Transfer": {
+                "Visibility": 446,
+                "Detection": 342,
+                "Substeps": 464,
+                "Confidence": 0.7668161434977578,
+                "Quality": 0.8811659192825112
+            },
+            "Application Layer Protocol": {
+                "Visibility": 72,
+                "Detection": 57,
+                "Substeps": 112,
+                "Confidence": 0.8229166666666666,
+                "Quality": 0.8611111111111112
+            },
+            "Encrypted Channel": {
+                "Visibility": 39,
+                "Detection": 28,
+                "Substeps": 82,
+                "Confidence": 0.7756410256410257,
+                "Quality": 0.8461538461538461
+            },
+            "Non-Standard Port": {
+                "Visibility": 34,
+                "Detection": 27,
+                "Substeps": 52,
+                "Confidence": 0.8088235294117647,
+                "Quality": 0.7352941176470589
+            }
+        },
+        "Defense Evasion": {
+            "Obfuscated Files or Information": {
+                "Visibility": 18,
+                "Detection": 13,
+                "Substeps": 30,
+                "Confidence": 0.7361111111111112,
+                "Quality": 0.6666666666666667
+            },
+            "Signed Binary Proxy Execution": {
+                "Visibility": 90,
+                "Detection": 89,
+                "Substeps": 90,
+                "Confidence": 0.9861111111111112,
+                "Quality": 0.9444444444444444
+            },
+            "Valid Accounts": {
+                "Visibility": 134,
+                "Detection": 110,
+                "Substeps": 142,
+                "Confidence": 0.8414179104477612,
+                "Quality": 0.9328358208955224
+            },
+            "File and Directory Permissions Modification": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.95,
+                "Quality": 0.9333333333333333
+            },
+            "Access Token Manipulation": {
+                "Visibility": 16,
+                "Detection": 12,
+                "Substeps": 30,
+                "Confidence": 0.78125,
+                "Quality": 0.5
+            },
+            "Process Injection": {
+                "Visibility": 27,
+                "Detection": 25,
+                "Substeps": 30,
+                "Confidence": 0.9259259259259259,
+                "Quality": 0.8518518518518519
+            },
+            "Indicator Removal on Host": {
+                "Visibility": 90,
+                "Detection": 84,
+                "Substeps": 90,
+                "Confidence": 0.9416666666666667,
+                "Quality": 0.9333333333333333
+            }
+        },
+        "Persistence": {
+            "Boot or Logon Autostart Execution": {
+                "Visibility": 87,
+                "Detection": 86,
+                "Substeps": 90,
+                "Confidence": 0.9454022988505747,
+                "Quality": 0.9425287356321839
+            },
+            "External Remote Services": {
+                "Visibility": 21,
+                "Detection": 17,
+                "Substeps": 22,
+                "Confidence": 0.8333333333333334,
+                "Quality": 0.8095238095238095
+            },
+            "Server Software Component": {
+                "Visibility": 22,
+                "Detection": 15,
+                "Substeps": 22,
+                "Confidence": 0.7386363636363636,
+                "Quality": 0.7272727272727273
+            },
+            "Scheduled Task/Job": {
+                "Visibility": 79,
+                "Detection": 71,
+                "Substeps": 82,
+                "Confidence": 0.9082278481012658,
+                "Quality": 0.8734177215189873
+            },
+            "Create or Modify System Process": {
+                "Visibility": 50,
+                "Detection": 42,
+                "Substeps": 52,
+                "Confidence": 0.865,
+                "Quality": 0.9
+            }
+        },
+        "Discovery": {
+            "System Information Discovery": {
+                "Visibility": 123,
+                "Detection": 109,
+                "Substeps": 172,
+                "Confidence": 0.8821138211382114,
+                "Quality": 0.7723577235772358
+            },
+            "Process Discovery": {
+                "Visibility": 27,
+                "Detection": 25,
+                "Substeps": 60,
+                "Confidence": 0.9259259259259259,
+                "Quality": 0.7777777777777778
+            },
+            "System Service Discovery": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.9166666666666666,
+                "Quality": 0.9666666666666667
+            },
+            "Account Discovery": {
+                "Visibility": 60,
+                "Detection": 58,
+                "Substeps": 60,
+                "Confidence": 0.9416666666666667,
+                "Quality": 1.0
+            },
+            "System Network Configuration Discovery": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.95,
+                "Quality": 1.0
+            },
+            "System Network Connections Discovery": {
+                "Visibility": 60,
+                "Detection": 55,
+                "Substeps": 60,
+                "Confidence": 0.925,
+                "Quality": 0.9666666666666667
+            },
+            "Domain Trust Discovery": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.9166666666666666,
+                "Quality": 0.9666666666666667
+            },
+            "Permission Groups Discovery": {
+                "Visibility": 60,
+                "Detection": 57,
+                "Substeps": 60,
+                "Confidence": 0.8791666666666667,
+                "Quality": 0.7666666666666666
+            },
+            "File and Directory Discovery": {
+                "Visibility": 55,
+                "Detection": 44,
+                "Substeps": 82,
+                "Confidence": 0.8318181818181818,
+                "Quality": 0.7636363636363637
+            },
+            "System Owner/User Discovery": {
+                "Visibility": 33,
+                "Detection": 30,
+                "Substeps": 52,
+                "Confidence": 0.8712121212121212,
+                "Quality": 0.9090909090909091
+            },
+            "Remote System Discovery": {
+                "Visibility": 43,
+                "Detection": 37,
+                "Substeps": 60,
+                "Confidence": 0.8372093023255814,
+                "Quality": 0.6511627906976745
+            }
+        },
+        "Credential Access": {
+            "Unsecured Credentials": {
+                "Visibility": 65,
+                "Detection": 61,
+                "Substeps": 74,
+                "Confidence": 0.8807692307692307,
+                "Quality": 0.7230769230769231
+            },
+            "Steal or Forge Kerberos Tickets": {
+                "Visibility": 30,
+                "Detection": 29,
+                "Substeps": 30,
+                "Confidence": 0.925,
+                "Quality": 0.9
+            },
+            "OS Credential Dumping": {
+                "Visibility": 119,
+                "Detection": 106,
+                "Substeps": 134,
+                "Confidence": 0.884453781512605,
+                "Quality": 0.8739495798319328
+            },
+            "Credentials from Password Stores": {
+                "Visibility": 22,
+                "Detection": 20,
+                "Substeps": 30,
+                "Confidence": 0.9090909090909091,
+                "Quality": 0.9090909090909091
+            },
+            "Input Capture": {
+                "Visibility": 19,
+                "Detection": 19,
+                "Substeps": 30,
+                "Confidence": 0.9736842105263158,
+                "Quality": 0.9473684210526316
+            }
+        },
+        "Collection": {
+            "Email Collection": {
+                "Visibility": 30,
+                "Detection": 28,
+                "Substeps": 30,
+                "Confidence": 0.8166666666666667,
+                "Quality": 0.7666666666666666
+            },
+            "Archive Collected Data": {
+                "Visibility": 1,
+                "Detection": 0,
+                "Substeps": 30,
+                "Confidence": 0.25,
+                "Quality": 1.0
+            }
+        },
+        "Lateral Movement": {
+            "Remote Services": {
+                "Visibility": 142,
+                "Detection": 123,
+                "Substeps": 150,
+                "Confidence": 0.8890845070422535,
+                "Quality": 0.8661971830985915
+            },
+            "Lateral Tool Transfer": {
+                "Visibility": 28,
+                "Detection": 23,
+                "Substeps": 30,
+                "Confidence": 0.7857142857142857,
+                "Quality": 0.7857142857142857
+            }
+        },
+        "Impact": {
+            "Service Stop": {
+                "Visibility": 30,
+                "Detection": 29,
+                "Substeps": 30,
+                "Confidence": 0.8916666666666667,
+                "Quality": 0.9333333333333333
+            },
+            "Inhibit System Recovery": {
+                "Visibility": 30,
+                "Detection": 30,
+                "Substeps": 30,
+                "Confidence": 0.9833333333333333,
+                "Quality": 0.9666666666666667
+            },
+            "Data Encrypted for Impact": {
+                "Visibility": 56,
+                "Detection": 45,
+                "Substeps": 60,
+                "Confidence": 0.8080357142857143,
+                "Quality": 0.8035714285714286
+            },
+            "System Shutdown/Reboot": {
+                "Visibility": 29,
+                "Detection": 22,
+                "Substeps": 30,
+                "Confidence": 0.7844827586206896,
+                "Quality": 0.896551724137931
+            }
+        },
+        "Privilege Escalation": {
+            "Abuse Elevation Control Mechanism": {
+                "Visibility": 21,
+                "Detection": 15,
+                "Substeps": 22,
+                "Confidence": 0.6785714285714286,
+                "Quality": 0.8095238095238095
+            }
+        },
+        "Exfiltration": {
+            "Exfiltration Over C2 Channel": {
+                "Visibility": 15,
+                "Detection": 11,
+                "Substeps": 30,
+                "Confidence": 0.7333333333333333,
+                "Quality": 0.9333333333333333
+            }
+        }
+    },
+    "turla": {
+        "Initial Access": {
+            "Phishing": {
+                "Visibility": 29,
+                "Detection": 24,
+                "Substeps": 29,
+                "Confidence": 0.7672413793103449,
+                "Quality": 0.9310344827586207
+            },
+            "Drive-by Compromise": {
+                "Visibility": 42,
+                "Detection": 36,
+                "Substeps": 54,
+                "Confidence": 0.7559523809523809,
+                "Quality": 0.8571428571428572
+            }
+        },
+        "Execution": {
+            "User Execution": {
+                "Visibility": 58,
+                "Detection": 58,
+                "Substeps": 58,
+                "Confidence": 0.8620689655172413,
+                "Quality": 0.8620689655172413
+            },
+            "Command and Scripting Interpreter": {
+                "Visibility": 208,
+                "Detection": 192,
+                "Substeps": 226,
+                "Confidence": 0.9230769230769231,
+                "Quality": 0.8846153846153846
+            },
+            "System Services": {
+                "Visibility": 54,
+                "Detection": 48,
+                "Substeps": 58,
+                "Confidence": 0.8564814814814815,
+                "Quality": 0.8888888888888888
+            },
+            "Native API": {
+                "Visibility": 43,
+                "Detection": 30,
+                "Substeps": 58,
+                "Confidence": 0.6802325581395349,
+                "Quality": 0.7209302325581395
+            },
+            "Scheduled Task/Job": {
+                "Visibility": 54,
+                "Detection": 51,
+                "Substeps": 55,
+                "Confidence": 0.8888888888888888,
+                "Quality": 0.8148148148148149
+            },
+            "Inter-Process Communication": {
+                "Visibility": 78,
+                "Detection": 54,
+                "Substeps": 115,
+                "Confidence": 0.6955128205128205,
+                "Quality": 0.7051282051282051
+            },
+            "Ingress Tool Transfer": {
+                "Visibility": 402,
+                "Detection": 334,
+                "Substeps": 405,
+                "Confidence": 0.7953980099502488,
+                "Quality": 0.763681592039801
+            },
+            "Windows Management Instrumentation": {
+                "Visibility": 29,
+                "Detection": 26,
+                "Substeps": 29,
+                "Confidence": 0.9224137931034483,
+                "Quality": 1.0
+            }
+        },
+        "Defense Evasion": {
+            "Obfuscated Files or Information": {
+                "Visibility": 85,
+                "Detection": 80,
+                "Substeps": 142,
+                "Confidence": 0.8647058823529412,
+                "Quality": 0.6588235294117647
+            },
+            "Modify Registry": {
+                "Visibility": 86,
+                "Detection": 75,
+                "Substeps": 87,
+                "Confidence": 0.8313953488372093,
+                "Quality": 0.8255813953488372
+            },
+            "Process Injection": {
+                "Visibility": 110,
+                "Detection": 99,
+                "Substeps": 116,
+                "Confidence": 0.8568181818181818,
+                "Quality": 0.8181818181818181
+            },
+            "Masquerading": {
+                "Visibility": 133,
+                "Detection": 102,
+                "Substeps": 141,
+                "Confidence": 0.7406015037593985,
+                "Quality": 0.8270676691729324
+            },
+            "Indicator Removal on Host": {
+                "Visibility": 251,
+                "Detection": 228,
+                "Substeps": 261,
+                "Confidence": 0.8924302788844621,
+                "Quality": 0.8446215139442231
+            },
+            "File and Directory Permissions Modification": {
+                "Visibility": 25,
+                "Detection": 23,
+                "Substeps": 26,
+                "Confidence": 0.92,
+                "Quality": 0.84
+            },
+            "Subvert Trust Controls": {
+                "Visibility": 23,
+                "Detection": 21,
+                "Substeps": 29,
+                "Confidence": 0.8260869565217391,
+                "Quality": 0.6521739130434783
+            },
+            "Rootkit": {
+                "Visibility": 42,
+                "Detection": 38,
+                "Substeps": 58,
+                "Confidence": 0.875,
+                "Quality": 0.7857142857142857
+            },
+            "Deobfuscate/Decode Files or Information": {
+                "Visibility": 17,
+                "Detection": 13,
+                "Substeps": 29,
+                "Confidence": 0.6764705882352942,
+                "Quality": 0.8823529411764706
+            },
+            "Use Alternate Authentication Material": {
+                "Visibility": 57,
+                "Detection": 53,
+                "Substeps": 58,
+                "Confidence": 0.8991228070175439,
+                "Quality": 0.8771929824561404
+            },
+            "Hide Artifacts": {
+                "Visibility": 9,
+                "Detection": 5,
+                "Substeps": 27,
+                "Confidence": 0.6388888888888888,
+                "Quality": 0.4444444444444444
+            }
+        },
+        "Persistence": {
+            "Boot or Logon Autostart Execution": {
+                "Visibility": 29,
+                "Detection": 27,
+                "Substeps": 29,
+                "Confidence": 0.9051724137931034,
+                "Quality": 0.9310344827586207
+            },
+            "Create or Modify System Process": {
+                "Visibility": 83,
+                "Detection": 73,
+                "Substeps": 84,
+                "Confidence": 0.8734939759036144,
+                "Quality": 0.8795180722891567
+            },
+            "Scheduled Task/Job": {
+                "Visibility": 54,
+                "Detection": 51,
+                "Substeps": 55,
+                "Confidence": 0.8888888888888888,
+                "Quality": 0.8148148148148149
+            },
+            "Event Triggered Execution": {
+                "Visibility": 9,
+                "Detection": 7,
+                "Substeps": 29,
+                "Confidence": 0.8333333333333334,
+                "Quality": 0.8888888888888888
+            },
+            "Create Account": {
+                "Visibility": 28,
+                "Detection": 28,
+                "Substeps": 29,
+                "Confidence": 0.9375,
+                "Quality": 1.0
+            },
+            "Server Software Component": {
+                "Visibility": 29,
+                "Detection": 27,
+                "Substeps": 29,
+                "Confidence": 0.9137931034482759,
+                "Quality": 0.9310344827586207
+            }
+        },
+        "Discovery": {
+            "Process Discovery": {
+                "Visibility": 97,
+                "Detection": 93,
+                "Substeps": 116,
+                "Confidence": 0.9432989690721649,
+                "Quality": 0.8865979381443299
+            },
+            "Account Discovery": {
+                "Visibility": 79,
+                "Detection": 76,
+                "Substeps": 87,
+                "Confidence": 0.8860759493670886,
+                "Quality": 0.8481012658227848
+            },
+            "File and Directory Discovery": {
+                "Visibility": 23,
+                "Detection": 19,
+                "Substeps": 29,
+                "Confidence": 0.8152173913043478,
+                "Quality": 0.782608695652174
+            },
+            "Permission Groups Discovery": {
+                "Visibility": 115,
+                "Detection": 111,
+                "Substeps": 116,
+                "Confidence": 0.908695652173913,
+                "Quality": 0.8695652173913043
+            },
+            "System Service Discovery": {
+                "Visibility": 29,
+                "Detection": 28,
+                "Substeps": 29,
+                "Confidence": 0.9655172413793104,
+                "Quality": 0.9655172413793104
+            },
+            "Query Registry": {
+                "Visibility": 29,
+                "Detection": 29,
+                "Substeps": 29,
+                "Confidence": 1.0,
+                "Quality": 0.896551724137931
+            },
+            "System Owner/User Discovery": {
+                "Visibility": 29,
+                "Detection": 28,
+                "Substeps": 29,
+                "Confidence": 0.9568965517241379,
+                "Quality": 0.9310344827586207
+            },
+            "Remote System Discovery": {
+                "Visibility": 57,
+                "Detection": 55,
+                "Substeps": 58,
+                "Confidence": 0.8771929824561403,
+                "Quality": 0.8771929824561404
+            },
+            "Network Sniffing": {
+                "Visibility": 15,
+                "Detection": 14,
+                "Substeps": 26,
+                "Confidence": 0.95,
+                "Quality": 0.8666666666666667
+            },
+            "System Information Discovery": {
+                "Visibility": 29,
+                "Detection": 29,
+                "Substeps": 29,
+                "Confidence": 0.9482758620689655,
+                "Quality": 1.0
+            },
+            "System Network Connections Discovery": {
+                "Visibility": 29,
+                "Detection": 27,
+                "Substeps": 29,
+                "Confidence": 0.9310344827586207,
+                "Quality": 0.9310344827586207
+            },
+            "System Network Configuration Discovery": {
+                "Visibility": 27,
+                "Detection": 26,
+                "Substeps": 27,
+                "Confidence": 0.9351851851851852,
+                "Quality": 1.0
+            }
+        },
+        "Collection": {
+            "Archive Collected Data": {
+                "Visibility": 11,
+                "Detection": 9,
+                "Substeps": 29,
+                "Confidence": 0.8409090909090909,
+                "Quality": 0.5454545454545454
+            },
+            "Input Capture": {
+                "Visibility": 27,
+                "Detection": 23,
+                "Substeps": 29,
+                "Confidence": 0.8148148148148148,
+                "Quality": 0.8888888888888888
+            },
+            "Email Collection": {
+                "Visibility": 24,
+                "Detection": 11,
+                "Substeps": 27,
+                "Confidence": 0.5729166666666666,
+                "Quality": 0.7083333333333333
+            }
+        },
+        "Command and Control": {
+            "Data Encoding": {
+                "Visibility": 48,
+                "Detection": 44,
+                "Substeps": 137,
+                "Confidence": 0.9010416666666666,
+                "Quality": 0.5
+            },
+            "Application Layer Protocol": {
+                "Visibility": 236,
+                "Detection": 188,
+                "Substeps": 256,
+                "Confidence": 0.809322033898305,
+                "Quality": 0.847457627118644
+            },
+            "Proxy": {
+                "Visibility": 74,
+                "Detection": 57,
+                "Substeps": 87,
+                "Confidence": 0.7162162162162162,
+                "Quality": 0.7297297297297297
+            },
+            "Encrypted Channel": {
+                "Visibility": 90,
+                "Detection": 82,
+                "Substeps": 201,
+                "Confidence": 0.8611111111111112,
+                "Quality": 0.5222222222222221
+            },
+            "Ingress Tool Transfer": {
+                "Visibility": 402,
+                "Detection": 334,
+                "Substeps": 405,
+                "Confidence": 0.7953980099502488,
+                "Quality": 0.763681592039801
+            },
+            "Traffic Signaling": {
+                "Visibility": 27,
+                "Detection": 22,
+                "Substeps": 51,
+                "Confidence": 0.8148148148148148,
+                "Quality": 0.8518518518518519
+            },
+            "Data Obfuscation": {
+                "Visibility": 13,
+                "Detection": 12,
+                "Substeps": 54,
+                "Confidence": 0.9038461538461539,
+                "Quality": 0.5384615384615384
+            }
+        },
+        "Privilege Escalation": {
+            "Hijack Execution Flow": {
+                "Visibility": 29,
+                "Detection": 27,
+                "Substeps": 29,
+                "Confidence": 0.8879310344827587,
+                "Quality": 0.896551724137931
+            },
+            "Access Token Manipulation": {
+                "Visibility": 41,
+                "Detection": 33,
+                "Substeps": 58,
+                "Confidence": 0.774390243902439,
+                "Quality": 0.8292682926829268
+            },
+            "Valid Accounts": {
+                "Visibility": 28,
+                "Detection": 20,
+                "Substeps": 29,
+                "Confidence": 0.7321428571428571,
+                "Quality": 0.9285714285714286
+            }
+        },
+        "Credential Access": {
+            "Brute Force": {
+                "Visibility": 29,
+                "Detection": 26,
+                "Substeps": 29,
+                "Confidence": 0.853448275862069,
+                "Quality": 0.896551724137931
+            },
+            "OS Credential Dumping": {
+                "Visibility": 57,
+                "Detection": 55,
+                "Substeps": 58,
+                "Confidence": 0.9473684210526315,
+                "Quality": 0.8771929824561404
+            }
+        },
+        "Lateral Movement": {
+            "Lateral Tool Transfer": {
+                "Visibility": 58,
+                "Detection": 53,
+                "Substeps": 58,
+                "Confidence": 0.8103448275862069,
+                "Quality": 0.9310344827586207
+            },
+            "Use Alternate Authentication Material": {
+                "Visibility": 57,
+                "Detection": 53,
+                "Substeps": 58,
+                "Confidence": 0.8991228070175439,
+                "Quality": 0.8771929824561404
+            },
+            "Remote Services": {
+                "Visibility": 58,
+                "Detection": 54,
+                "Substeps": 58,
+                "Confidence": 0.8189655172413793,
+                "Quality": 0.9310344827586207
+            }
+        },
+        "Exfiltration": {
+            "Exfiltration Over C2 Channel": {
+                "Visibility": 21,
+                "Detection": 14,
+                "Substeps": 27,
+                "Confidence": 0.7023809523809523,
+                "Quality": 0.7142857142857143
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+Tactic,Technique,Visibility,Detection,Substeps,Confidence,Quality
+Execution,User Execution,30.000,26.000,30.000,0.883,0.967
+Execution,Command and Scripting Interpreter,167.000,153.000,172.000,0.916,0.958
+Execution,Windows Management Instrumentation,25.000,23.000,30.000,0.940,0.920
+Execution,System Services,30.000,28.000,30.000,0.925,0.933
+Command and Control,Ingress Tool Transfer,446.000,342.000,464.000,0.767,0.881
+Command and Control,Application Layer Protocol,72.000,57.000,112.000,0.823,0.861
+Command and Control,Encrypted Channel,39.000,28.000,82.000,0.776,0.846
+Command and Control,Non-Standard Port,34.000,27.000,52.000,0.809,0.735
+Defense Evasion,Obfuscated Files or Information,18.000,13.000,30.000,0.736,0.667
+Defense Evasion,Signed Binary Proxy Execution,90.000,89.000,90.000,0.986,0.944
+Defense Evasion,Valid Accounts,134.000,110.000,142.000,0.841,0.933
+Defense Evasion,File and Directory Permissions Modification,30.000,28.000,30.000,0.950,0.933
+Defense Evasion,Access Token Manipulation,16.000,12.000,30.000,0.781,0.500
+Defense Evasion,Process Injection,27.000,25.000,30.000,0.926,0.852
+Defense Evasion,Indicator Removal on Host,90.000,84.000,90.000,0.942,0.933
+Persistence,Boot or Logon Autostart Execution,87.000,86.000,90.000,0.945,0.943
+Persistence,External Remote Services,21.000,17.000,22.000,0.833,0.810
+Persistence,Server Software Component,22.000,15.000,22.000,0.739,0.727
+Persistence,Scheduled Task/Job,79.000,71.000,82.000,0.908,0.873
+Persistence,Create or Modify System Process,50.000,42.000,52.000,0.865,0.900
+Discovery,System Information Discovery,123.000,109.000,172.000,0.882,0.772
+Discovery,Process Discovery,27.000,25.000,60.000,0.926,0.778
+Discovery,System Service Discovery,30.000,28.000,30.000,0.917,0.967
+Discovery,Account Discovery,60.000,58.000,60.000,0.942,1.000
+Discovery,System Network Configuration Discovery,30.000,28.000,30.000,0.950,1.000
+Discovery,System Network Connections Discovery,60.000,55.000,60.000,0.925,0.967
+Discovery,Domain Trust Discovery,30.000,28.000,30.000,0.917,0.967
+Discovery,Permission Groups Discovery,60.000,57.000,60.000,0.879,0.767
+Discovery,File and Directory Discovery,55.000,44.000,82.000,0.832,0.764
+Discovery,System Owner/User Discovery,33.000,30.000,52.000,0.871,0.909
+Discovery,Remote System Discovery,43.000,37.000,60.000,0.837,0.651
+Credential Access,Unsecured Credentials,65.000,61.000,74.000,0.881,0.723
+Credential Access,Steal or Forge Kerberos Tickets,30.000,29.000,30.000,0.925,0.900
+Credential Access,OS Credential Dumping,119.000,106.000,134.000,0.884,0.874
+Credential Access,Credentials from Password Stores,22.000,20.000,30.000,0.909,0.909
+Credential Access,Input Capture,19.000,19.000,30.000,0.974,0.947
+Collection,Email Collection,30.000,28.000,30.000,0.817,0.767
+Collection,Archive Collected Data,1.000,0.000,30.000,0.250,1.000
+Lateral Movement,Remote Services,142.000,123.000,150.000,0.889,0.866
+Lateral Movement,Lateral Tool Transfer,28.000,23.000,30.000,0.786,0.786
+Impact,Service Stop,30.000,29.000,30.000,0.892,0.933
+Impact,Inhibit System Recovery,30.000,30.000,30.000,0.983,0.967
+Impact,Data Encrypted for Impact,56.000,45.000,60.000,0.808,0.804
+Impact,System Shutdown/Reboot,29.000,22.000,30.000,0.784,0.897
+Privilege Escalation,Abuse Elevation Control Mechanism,21.000,15.000,22.000,0.679,0.810
+Exfiltration,Exfiltration Over C2 Channel,15.000,11.000,30.000,0.733,0.933

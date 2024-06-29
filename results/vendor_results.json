@@ -1,0 +1,859 @@
+{
+    "carbanak-fin7": {
+        "ahnlab": {
+            "Visibility": 90,
+            "Detection": 37,
+            "Substeps": 162,
+            "Confidence": 0.5166666666666667,
+            "Quality": 0.8666666666666667
+        },
+        "bitdefender": {
+            "Visibility": 158,
+            "Detection": 151,
+            "Substeps": 174,
+            "Confidence": 0.9272151898734177,
+            "Quality": 0.759493670886076
+        },
+        "checkpoint": {
+            "Visibility": 162,
+            "Detection": 157,
+            "Substeps": 174,
+            "Confidence": 0.9737654320987654,
+            "Quality": 0.691358024691358
+        },
+        "cisco": {
+            "Visibility": 122,
+            "Detection": 42,
+            "Substeps": 174,
+            "Confidence": 0.4426229508196721,
+            "Quality": 0.9672131147540983
+        },
+        "crowdstrike": {
+            "Visibility": 152,
+            "Detection": 64,
+            "Substeps": 174,
+            "Confidence": 0.5032894736842105,
+            "Quality": 0.7960526315789473
+        },
+        "cybereason": {
+            "Visibility": 160,
+            "Detection": 148,
+            "Substeps": 174,
+            "Confidence": 0.9296875,
+            "Quality": 0.95625
+        },
+        "cycraft": {
+            "Visibility": 130,
+            "Detection": 125,
+            "Substeps": 174,
+            "Confidence": 0.75,
+            "Quality": 1.0
+        },
+        "cylance": {
+            "Visibility": 141,
+            "Detection": 99,
+            "Substeps": 174,
+            "Confidence": 0.6560283687943262,
+            "Quality": 0.7659574468085106
+        },
+        "cynet": {
+            "Visibility": 153,
+            "Detection": 107,
+            "Substeps": 174,
+            "Confidence": 0.7352941176470589,
+            "Quality": 0.7908496732026143
+        },
+        "elastic": {
+            "Visibility": 140,
+            "Detection": 63,
+            "Substeps": 174,
+            "Confidence": 0.55,
+            "Quality": 0.8428571428571429
+        },
+        "eset": {
+            "Visibility": 147,
+            "Detection": 93,
+            "Substeps": 162,
+            "Confidence": 0.6581632653061225,
+            "Quality": 0.8503401360544218
+        },
+        "fidelis": {
+            "Visibility": 147,
+            "Detection": 119,
+            "Substeps": 174,
+            "Confidence": 0.8333333333333334,
+            "Quality": 0.6258503401360545
+        },
+        "fireeye": {
+            "Visibility": 136,
+            "Detection": 124,
+            "Substeps": 174,
+            "Confidence": 0.8933823529411765,
+            "Quality": 0.875
+        },
+        "fortinet": {
+            "Visibility": 117,
+            "Detection": 68,
+            "Substeps": 162,
+            "Confidence": 0.6260683760683761,
+            "Quality": 0.905982905982906
+        },
+        "gosecure": {
+            "Visibility": 100,
+            "Detection": 59,
+            "Substeps": 162,
+            "Confidence": 0.62,
+            "Quality": 0.92
+        },
+        "malwarebytes": {
+            "Visibility": 116,
+            "Detection": 85,
+            "Substeps": 162,
+            "Confidence": 0.7866379310344828,
+            "Quality": 0.8620689655172413
+        },
+        "mcafee": {
+            "Visibility": 151,
+            "Detection": 93,
+            "Substeps": 174,
+            "Confidence": 0.6539735099337748,
+            "Quality": 0.8874172185430463
+        },
+        "microfocus": {
+            "Visibility": 122,
+            "Detection": 82,
+            "Substeps": 174,
+            "Confidence": 0.7377049180327869,
+            "Quality": 0.8688524590163934
+        },
+        "microsoft": {
+            "Visibility": 151,
+            "Detection": 134,
+            "Substeps": 174,
+            "Confidence": 0.8807947019867549,
+            "Quality": 0.7880794701986755
+        },
+        "opentext": {
+            "Visibility": 125,
+            "Detection": 67,
+            "Substeps": 162,
+            "Confidence": 0.628,
+            "Quality": 0.608
+        },
+        "paloaltonetworks": {
+            "Visibility": 169,
+            "Detection": 149,
+            "Substeps": 174,
+            "Confidence": 0.8816568047337278,
+            "Quality": 0.9822485207100592
+        },
+        "reaqta": {
+            "Visibility": 135,
+            "Detection": 101,
+            "Substeps": 174,
+            "Confidence": 0.7240740740740741,
+            "Quality": 1.0
+        },
+        "sentinelone": {
+            "Visibility": 174,
+            "Detection": 159,
+            "Substeps": 174,
+            "Confidence": 0.9181034482758621,
+            "Quality": 1.0
+        },
+        "sophos": {
+            "Visibility": 118,
+            "Detection": 39,
+            "Substeps": 162,
+            "Confidence": 0.4915254237288136,
+            "Quality": 0.9491525423728814
+        },
+        "symantec": {
+            "Visibility": 159,
+            "Detection": 122,
+            "Substeps": 174,
+            "Confidence": 0.7861635220125787,
+            "Quality": 0.7421383647798743
+        },
+        "trendmicro": {
+            "Visibility": 167,
+            "Detection": 139,
+            "Substeps": 174,
+            "Confidence": 0.8218562874251497,
+            "Quality": 0.688622754491018
+        },
+        "uptycs": {
+            "Visibility": 127,
+            "Detection": 62,
+            "Substeps": 174,
+            "Confidence": 0.5059055118110236,
+            "Quality": 0.9212598425196851
+        },
+        "vmware": {
+            "Visibility": 154,
+            "Detection": 90,
+            "Substeps": 174,
+            "Confidence": 0.6136363636363636,
+            "Quality": 0.961038961038961
+        },
+        "withsecure": {
+            "Visibility": 152,
+            "Detection": 80,
+            "Substeps": 174,
+            "Confidence": 0.5509868421052632,
+            "Quality": 0.9144736842105263
+        }
+    },
+    "turla": {
+        "ahnlab": {
+            "Visibility": 98,
+            "Detection": 96,
+            "Substeps": 117,
+            "Confidence": 0.7704081632653061,
+            "Quality": 0.8775510204081632
+        },
+        "bitdefender": {
+            "Visibility": 131,
+            "Detection": 127,
+            "Substeps": 142,
+            "Confidence": 0.9312977099236641,
+            "Quality": 0.6641221374045801
+        },
+        "blackberry": {
+            "Visibility": 117,
+            "Detection": 90,
+            "Substeps": 143,
+            "Confidence": 0.7094017094017094,
+            "Quality": 0.811965811965812
+        },
+        "crowdstrike": {
+            "Visibility": 143,
+            "Detection": 143,
+            "Substeps": 143,
+            "Confidence": 0.9895104895104895,
+            "Quality": 0.8251748251748252
+        },
+        "cybereason": {
+            "Visibility": 143,
+            "Detection": 142,
+            "Substeps": 143,
+            "Confidence": 0.9842657342657343,
+            "Quality": 1.0
+        },
+        "cynet": {
+            "Visibility": 143,
+            "Detection": 143,
+            "Substeps": 143,
+            "Confidence": 0.9790209790209791,
+            "Quality": 0.9790209790209791
+        },
+        "deepinstinct": {
+            "Visibility": 118,
+            "Detection": 116,
+            "Substeps": 132,
+            "Confidence": 0.9745762711864406,
+            "Quality": 0.7627118644067796
+        },
+        "elastic": {
+            "Visibility": 115,
+            "Detection": 80,
+            "Substeps": 143,
+            "Confidence": 0.6304347826086957,
+            "Quality": 0.9652173913043478
+        },
+        "eset": {
+            "Visibility": 111,
+            "Detection": 85,
+            "Substeps": 143,
+            "Confidence": 0.7567567567567568,
+            "Quality": 0.8468468468468469
+        },
+        "fortinet": {
+            "Visibility": 140,
+            "Detection": 136,
+            "Substeps": 143,
+            "Confidence": 0.9714285714285714,
+            "Quality": 0.8857142857142857
+        },
+        "harfanglab": {
+            "Visibility": 125,
+            "Detection": 113,
+            "Substeps": 143,
+            "Confidence": 0.918,
+            "Quality": 0.648
+        },
+        "ibmsecurity": {
+            "Visibility": 103,
+            "Detection": 90,
+            "Substeps": 143,
+            "Confidence": 0.808252427184466,
+            "Quality": 1.0
+        },
+        "malwarebytes": {
+            "Visibility": 118,
+            "Detection": 108,
+            "Substeps": 143,
+            "Confidence": 0.8961864406779662,
+            "Quality": 0.6016949152542372
+        },
+        "microsoft": {
+            "Visibility": 143,
+            "Detection": 140,
+            "Substeps": 143,
+            "Confidence": 0.9667832167832168,
+            "Quality": 0.7272727272727273
+        },
+        "paloaltonetworks": {
+            "Visibility": 143,
+            "Detection": 143,
+            "Substeps": 143,
+            "Confidence": 0.9982517482517482,
+            "Quality": 1.0
+        },
+        "qualys": {
+            "Visibility": 112,
+            "Detection": 74,
+            "Substeps": 139,
+            "Confidence": 0.6383928571428571,
+            "Quality": 0.4196428571428571
+        },
+        "rapid7": {
+            "Visibility": 101,
+            "Detection": 47,
+            "Substeps": 143,
+            "Confidence": 0.5396039603960396,
+            "Quality": 0.8316831683168316
+        },
+        "secureworks": {
+            "Visibility": 112,
+            "Detection": 74,
+            "Substeps": 143,
+            "Confidence": 0.6808035714285714,
+            "Quality": 0.7678571428571428
+        },
+        "sentinelone": {
+            "Visibility": 126,
+            "Detection": 120,
+            "Substeps": 131,
+            "Confidence": 0.9305555555555556,
+            "Quality": 1.0
+        },
+        "somma": {
+            "Visibility": 84,
+            "Detection": 48,
+            "Substeps": 143,
+            "Confidence": 0.6011904761904762,
+            "Quality": 1.0
+        },
+        "sophos": {
+            "Visibility": 141,
+            "Detection": 140,
+            "Substeps": 143,
+            "Confidence": 0.9326241134751773,
+            "Quality": 0.7730496453900709
+        },
+        "symantec": {
+            "Visibility": 108,
+            "Detection": 93,
+            "Substeps": 143,
+            "Confidence": 0.7523148148148148,
+            "Quality": 1.0
+        },
+        "tehtris": {
+            "Visibility": 96,
+            "Detection": 74,
+            "Substeps": 143,
+            "Confidence": 0.6796875,
+            "Quality": 0.9583333333333334
+        },
+        "trellix": {
+            "Visibility": 116,
+            "Detection": 104,
+            "Substeps": 143,
+            "Confidence": 0.8383620689655172,
+            "Quality": 0.7327586206896552
+        },
+        "trendmicro": {
+            "Visibility": 126,
+            "Detection": 118,
+            "Substeps": 143,
+            "Confidence": 0.9246031746031746,
+            "Quality": 0.6428571428571428
+        },
+        "uptycs": {
+            "Visibility": 126,
+            "Detection": 120,
+            "Substeps": 143,
+            "Confidence": 0.9206349206349206,
+            "Quality": 0.8174603174603174
+        },
+        "vmware": {
+            "Visibility": 103,
+            "Detection": 84,
+            "Substeps": 143,
+            "Confidence": 0.7888349514563107,
+            "Quality": 0.7961165048543689
+        },
+        "watchguard": {
+            "Visibility": 104,
+            "Detection": 92,
+            "Substeps": 132,
+            "Confidence": 0.8028846153846154,
+            "Quality": 1.0
+        },
+        "withsecure": {
+            "Visibility": 96,
+            "Detection": 77,
+            "Substeps": 143,
+            "Confidence": 0.7682291666666666,
+            "Quality": 0.5729166666666667
+        }
+    },
+    "wizard-spider-sandworm": {
+        "ahnlab": {
+            "Visibility": 83,
+            "Detection": 59,
+            "Substeps": 90,
+            "Confidence": 0.7379518072289156,
+            "Quality": 0.8795180722891567
+        },
+        "bitdefender": {
+            "Visibility": 106,
+            "Detection": 106,
+            "Substeps": 109,
+            "Confidence": 0.9929245283018868,
+            "Quality": 0.8301886792452831
+        },
+        "checkpoint": {
+            "Visibility": 103,
+            "Detection": 103,
+            "Substeps": 109,
+            "Confidence": 0.9927184466019418,
+            "Quality": 0.8155339805825242
+        },
+        "cisco": {
+            "Visibility": 90,
+            "Detection": 74,
+            "Substeps": 109,
+            "Confidence": 0.8138888888888889,
+            "Quality": 0.7333333333333334
+        },
+        "crowdstrike": {
+            "Visibility": 105,
+            "Detection": 94,
+            "Substeps": 109,
+            "Confidence": 0.8642857142857143,
+            "Quality": 0.9142857142857143
+        },
+        "cybereason": {
+            "Visibility": 109,
+            "Detection": 108,
+            "Substeps": 109,
+            "Confidence": 0.9862385321100917,
+            "Quality": 0.981651376146789
+        },
+        "cycraft": {
+            "Visibility": 77,
+            "Detection": 64,
+            "Substeps": 109,
+            "Confidence": 0.8084415584415584,
+            "Quality": 0.987012987012987
+        },
+        "cylance": {
+            "Visibility": 89,
+            "Detection": 71,
+            "Substeps": 109,
+            "Confidence": 0.7556179775280899,
+            "Quality": 0.8651685393258427
+        },
+        "cynet": {
+            "Visibility": 107,
+            "Detection": 102,
+            "Substeps": 109,
+            "Confidence": 0.9626168224299065,
+            "Quality": 0.7757009345794392
+        },
+        "deepinstinct": {
+            "Visibility": 63,
+            "Detection": 59,
+            "Substeps": 90,
+            "Confidence": 0.9484126984126984,
+            "Quality": 0.6349206349206349
+        },
+        "elastic": {
+            "Visibility": 98,
+            "Detection": 71,
+            "Substeps": 109,
+            "Confidence": 0.6938775510204082,
+            "Quality": 0.8775510204081632
+        },
+        "eset": {
+            "Visibility": 75,
+            "Detection": 69,
+            "Substeps": 90,
+            "Confidence": 0.8866666666666667,
+            "Quality": 0.8
+        },
+        "fidelis": {
+            "Visibility": 94,
+            "Detection": 85,
+            "Substeps": 109,
+            "Confidence": 0.9069148936170213,
+            "Quality": 0.6702127659574468
+        },
+        "fireeye": {
+            "Visibility": 89,
+            "Detection": 85,
+            "Substeps": 109,
+            "Confidence": 0.9157303370786517,
+            "Quality": 0.898876404494382
+        },
+        "fortinet": {
+            "Visibility": 87,
+            "Detection": 85,
+            "Substeps": 90,
+            "Confidence": 0.9798850574712644,
+            "Quality": 0.8275862068965517
+        },
+        "malwarebytes": {
+            "Visibility": 83,
+            "Detection": 83,
+            "Substeps": 90,
+            "Confidence": 0.9969879518072289,
+            "Quality": 1.0
+        },
+        "mcafee": {
+            "Visibility": 107,
+            "Detection": 84,
+            "Substeps": 109,
+            "Confidence": 0.7897196261682243,
+            "Quality": 0.9065420560747663
+        },
+        "microsoft": {
+            "Visibility": 98,
+            "Detection": 98,
+            "Substeps": 109,
+            "Confidence": 0.9948979591836735,
+            "Quality": 0.8673469387755102
+        },
+        "paloaltonetworks": {
+            "Visibility": 107,
+            "Detection": 107,
+            "Substeps": 109,
+            "Confidence": 1.0,
+            "Quality": 0.9719626168224299
+        },
+        "qualys": {
+            "Visibility": 66,
+            "Detection": 50,
+            "Substeps": 90,
+            "Confidence": 0.7803030303030303,
+            "Quality": 0.7424242424242424
+        },
+        "rapid7": {
+            "Visibility": 62,
+            "Detection": 23,
+            "Substeps": 109,
+            "Confidence": 0.5120967741935484,
+            "Quality": 0.7741935483870968
+        },
+        "reaqta": {
+            "Visibility": 71,
+            "Detection": 62,
+            "Substeps": 90,
+            "Confidence": 0.8767605633802817,
+            "Quality": 1.0
+        },
+        "sentinelone": {
+            "Visibility": 108,
+            "Detection": 108,
+            "Substeps": 109,
+            "Confidence": 0.9814814814814815,
+            "Quality": 0.9814814814814815
+        },
+        "somma": {
+            "Visibility": 68,
+            "Detection": 28,
+            "Substeps": 90,
+            "Confidence": 0.5220588235294118,
+            "Quality": 0.9264705882352942
+        },
+        "sophos": {
+            "Visibility": 88,
+            "Detection": 67,
+            "Substeps": 109,
+            "Confidence": 0.7954545454545454,
+            "Quality": 0.8863636363636364
+        },
+        "symantec": {
+            "Visibility": 92,
+            "Detection": 87,
+            "Substeps": 109,
+            "Confidence": 0.8586956521739131,
+            "Quality": 0.9456521739130435
+        },
+        "trendmicro": {
+            "Visibility": 105,
+            "Detection": 100,
+            "Substeps": 109,
+            "Confidence": 0.9595238095238096,
+            "Quality": 0.780952380952381
+        },
+        "uptycs": {
+            "Visibility": 92,
+            "Detection": 81,
+            "Substeps": 109,
+            "Confidence": 0.842391304347826,
+            "Quality": 0.8913043478260869
+        },
+        "vmware": {
+            "Visibility": 90,
+            "Detection": 57,
+            "Substeps": 109,
+            "Confidence": 0.6694444444444444,
+            "Quality": 1.0
+        },
+        "withsecure": {
+            "Visibility": 83,
+            "Detection": 66,
+            "Substeps": 109,
+            "Confidence": 0.7771084337349398,
+            "Quality": 1.0
+        }
+    },
+    "apt29": {
+        "bitdefender": {
+            "Visibility": 109,
+            "Detection": 65,
+            "Substeps": 134,
+            "Confidence": 0.6399082568807339,
+            "Quality": 0.5963302752293578
+        },
+        "crowdstrike": {
+            "Visibility": 114,
+            "Detection": 30,
+            "Substeps": 134,
+            "Confidence": 0.4298245614035088,
+            "Quality": 0.9824561403508771
+        },
+        "cybereason": {
+            "Visibility": 79,
+            "Detection": 31,
+            "Substeps": 134,
+            "Confidence": 0.439873417721519,
+            "Quality": 0.5696202531645569
+        },
+        "cycraft": {
+            "Visibility": 91,
+            "Detection": 90,
+            "Substeps": 134,
+            "Confidence": 0.7252747252747253,
+            "Quality": 0.8131868131868132
+        },
+        "cylance": {
+            "Visibility": 109,
+            "Detection": 61,
+            "Substeps": 134,
+            "Confidence": 0.5848623853211009,
+            "Quality": 0.9541284403669725
+        },
+        "elastic": {
+            "Visibility": 122,
+            "Detection": 60,
+            "Substeps": 134,
+            "Confidence": 0.5614754098360656,
+            "Quality": 0.8852459016393442
+        },
+        "fireeye": {
+            "Visibility": 116,
+            "Detection": 67,
+            "Substeps": 134,
+            "Confidence": 0.5926724137931034,
+            "Quality": 0.8706896551724138
+        },
+        "gosecure": {
+            "Visibility": 69,
+            "Detection": 46,
+            "Substeps": 134,
+            "Confidence": 0.6847826086956522,
+            "Quality": 0.6666666666666667
+        },
+        "hansight": {
+            "Visibility": 111,
+            "Detection": 53,
+            "Substeps": 134,
+            "Confidence": 0.5675675675675675,
+            "Quality": 0.9189189189189189
+        },
+        "kaspersky": {
+            "Visibility": 57,
+            "Detection": 27,
+            "Substeps": 134,
+            "Confidence": 0.5701754385964912,
+            "Quality": 0.5263157894736843
+        },
+        "malwarebytes": {
+            "Visibility": 32,
+            "Detection": 17,
+            "Substeps": 134,
+            "Confidence": 0.6171875,
+            "Quality": 0.03125
+        },
+        "mcafee": {
+            "Visibility": 63,
+            "Detection": 32,
+            "Substeps": 134,
+            "Confidence": 0.5793650793650794,
+            "Quality": 0.8888888888888888
+        },
+        "microsoft": {
+            "Visibility": 114,
+            "Detection": 33,
+            "Substeps": 134,
+            "Confidence": 0.3793859649122807,
+            "Quality": 0.9473684210526316
+        },
+        "paloaltonetworks": {
+            "Visibility": 116,
+            "Detection": 50,
+            "Substeps": 134,
+            "Confidence": 0.5280172413793104,
+            "Quality": 0.9396551724137931
+        },
+        "reaqta": {
+            "Visibility": 116,
+            "Detection": 27,
+            "Substeps": 134,
+            "Confidence": 0.40301724137931033,
+            "Quality": 0.5344827586206897
+        },
+        "secureworks": {
+            "Visibility": 106,
+            "Detection": 34,
+            "Substeps": 134,
+            "Confidence": 0.49056603773584906,
+            "Quality": 0.9622641509433962
+        },
+        "sentinelone": {
+            "Visibility": 123,
+            "Detection": 62,
+            "Substeps": 134,
+            "Confidence": 0.5975609756097561,
+            "Quality": 0.7235772357723578
+        },
+        "symantec": {
+            "Visibility": 80,
+            "Detection": 44,
+            "Substeps": 134,
+            "Confidence": 0.578125,
+            "Quality": 0.375
+        },
+        "trendmicro": {
+            "Visibility": 116,
+            "Detection": 56,
+            "Substeps": 134,
+            "Confidence": 0.5603448275862069,
+            "Quality": 0.8448275862068966
+        },
+        "vmware": {
+            "Visibility": 101,
+            "Detection": 45,
+            "Substeps": 134,
+            "Confidence": 0.5074257425742574,
+            "Quality": 0.9900990099009901
+        },
+        "withsecure": {
+            "Visibility": 115,
+            "Detection": 38,
+            "Substeps": 134,
+            "Confidence": 0.4543478260869565,
+            "Quality": 0.9739130434782609
+        }
+    },
+    "apt3": {
+        "crowdstrike": {
+            "Visibility": 105,
+            "Detection": 71,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.4380952380952381
+        },
+        "cybereason": {
+            "Visibility": 107,
+            "Detection": 59,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 1.0
+        },
+        "elastic": {
+            "Visibility": 101,
+            "Detection": 63,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.6732673267326732
+        },
+        "fireeye": {
+            "Visibility": 100,
+            "Detection": 91,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.26
+        },
+        "gosecure": {
+            "Visibility": 96,
+            "Detection": 36,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.7395833333333333
+        },
+        "mcafee": {
+            "Visibility": 92,
+            "Detection": 68,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.9782608695652174
+        },
+        "microsoft": {
+            "Visibility": 108,
+            "Detection": 41,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.6759259259259259
+        },
+        "paloaltonetworks": {
+            "Visibility": 124,
+            "Detection": 88,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.9919354838709677
+        },
+        "rsa": {
+            "Visibility": 76,
+            "Detection": 1,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 1.0
+        },
+        "sentinelone": {
+            "Visibility": 101,
+            "Detection": 8,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 1.0
+        },
+        "vmware": {
+            "Visibility": 101,
+            "Detection": 69,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 0.9504950495049505
+        },
+        "withsecure": {
+            "Visibility": 122,
+            "Detection": 72,
+            "Substeps": 136,
+            "Confidence": 0.0,
+            "Quality": 1.0
+        }
+    }
+}
